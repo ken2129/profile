@@ -1,18 +1,24 @@
-# profile
+# Kensuke Uchishiba / 内芝 謙允
 
-デザインと公開動作を確認するための、架空のプロフィールページです。人物・大学・所属・経歴・研究・制作物はすべてサンプルであり、実在する個人のプロフィールではありません。
+学歴、インターンシップ、研究・学会発表、技術スキルをまとめた日本語のプロフィールページです。
 
-## ファイル
+公開URL: https://ken2129.github.io/profile/
 
-- `index.html`: CSSを含む単一HTMLのサンプルページ
-- `.nojekyll`: 静的ファイルをそのまま配信するための設定
+## 編集
 
-外部ライブラリ、外部フォント、アクセス解析、実在する個人へのリンクは使用していません。
+- `index.html`: ページの本文とCSS。経歴を更新するときは本文と末尾の更新日を編集します。
+- `.nojekyll`: HTMLをそのまま配信するための設定。
 
-## GitHub Pages の公開設定
+外部ライブラリ、外部フォント、アクセス解析は使用していません。
 
-リポジトリの Settings → Pages で、Source を `Deploy from a branch`、Branch を `main`、フォルダを `/(root)` に設定して Save を押します。
+## GitHub Pages
 
-公開後の予定URL: https://ken2129.github.io/profile/
+Settings → Pages で、Sourceを `Deploy from a branch`、Branchを `main`、フォルダを `/(root)` に設定します。設定後はmainへの反映で自動更新されます。
 
-このREADMEへの記載だけではPagesは有効になりません。公開設定とデプロイ完了後にURLを確認してください。
+## 内容の出典
+
+- 学歴・インターンシップ・主要技術：本人のAWS応募用レジュメ。
+- 研究発表：[電子情報通信学会の発表情報](https://ken.ieice.org/ken/paper/20260316pcSj/)。
+- PyTorch：本人の研究資料・レジュメ。
+
+学部の学科名・大学院の専攻名は正式表記が未確認のため掲載していません。確認後に追記できます。

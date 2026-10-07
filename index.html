@@ -3,38 +3,164 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
-  <meta name="description" content="山田太郎のプロフィール。デザイン確認用の架空のプロフィール。">
-  <title>山田 太郎 | Taro Yamada</title>
+  <meta name="description" content="内芝謙允のプロフィール。早稲田大学大学院で学習型画像圧縮を研究しています。学歴、インターンシップ、研究発表、技術スキルを掲載。">
+  <title>内芝 謙允 | Kensuke Uchishiba</title>
   <style>
-    :root{color-scheme:light;--ink:#202d35;--muted:#5b6870;--line:#dce3e5;--accent:#1c6571;--paper:#fbfcfb}
-    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:30px}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;font-size:16px;line-height:1.85}
-    a{color:var(--accent);text-underline-offset:4px}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:3px solid #c48a27;outline-offset:5px}.skip{position:absolute;top:-100px;left:16px}.skip:focus{top:12px;background:white;padding:10px;z-index:5}
-    .draft{background:#edf2f2;color:#4c6066;font-size:12px;text-align:center;letter-spacing:.06em;padding:9px 20px}.shell{max-width:1030px;margin:auto;padding:65px 48px 35px}.top{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-bottom:22px;border-bottom:1px solid var(--line)}.signature{font-size:13px;letter-spacing:.13em;font-weight:600}.top nav{display:flex;gap:24px;font-size:13px}.top a{text-decoration:none;color:var(--muted)}
-    header{padding:65px 0 51px}.eyebrow{color:var(--accent);font-size:12px;font-weight:650;letter-spacing:.15em;margin:0 0 17px}h1{font-size:43px;line-height:1.4;letter-spacing:.1em;margin:0;font-weight:650}.english{font-size:22px;letter-spacing:.015em;font-weight:400;display:block;color:var(--muted);margin-top:9px}.affiliation{margin:23px 0 0;color:var(--muted);font-size:15px}.intro{max-width:650px;font-size:17px;margin:20px 0}.profile-link{display:inline-flex;align-items:center;gap:16px;font-size:14px;margin-top:8px}.profile-link span{font-size:18px}
-    main{border-top:1px solid var(--line)}section{display:grid;grid-template-columns:215px 1fr;gap:30px;border-bottom:1px solid var(--line);padding:37px 0}h2{font-size:19px;line-height:1.5;margin:1px 0 0;font-weight:600}h2 small{display:block;font-size:12px;color:var(--muted);letter-spacing:.08em;font-weight:400;margin-top:7px}h3{font-size:17px;margin:0 0 9px;font-weight:600}section p{margin:0;color:var(--muted);font-size:15px}.keywords{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.keywords span{font-size:12px;padding:4px 10px;background:#edf3f2;border-radius:3px;color:#35565c}.project{border-left:2px solid #8eafb1;padding-left:20px}.project a{font-size:15px}.project p{margin:9px 0 14px}.education{display:flex;justify-content:space-between;gap:15px;align-items:baseline}.education strong{font-weight:550;font-size:16px}.education span{color:var(--muted);font-size:14px;white-space:nowrap}.education p{margin-top:5px}footer{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;padding:27px 0 10px;letter-spacing:.03em}
-    @media(max-width:640px){.shell{padding:28px 24px 20px}.top{align-items:flex-start}.signature{font-size:11px}.top nav{gap:14px;font-size:12px}header{padding:43px 0 36px}h1{font-size:32px}.english{font-size:18px}.intro{font-size:16px}section{grid-template-columns:1fr;gap:22px;padding:29px 0}h2 small{display:inline;margin-left:12px}.education{align-items:flex-start;flex-direction:column;gap:8px}footer{font-size:10px}.draft{font-size:11px}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    :root { color-scheme: light; --ink: #192b3d; --muted: #526273; --line: #dce3e9; --accent: #175a87; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+    body { margin: 0; background: #fff; color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif; font-size: 16px; line-height: 1.85; }
+    a { color: var(--accent); text-underline-offset: 4px; overflow-wrap: anywhere; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 3px solid #175a87; outline-offset: 5px; border-radius: 2px; }
+    .skip { position: absolute; left: 16px; top: -100px; background: #fff; padding: 8px 14px; z-index: 2; }
+    .skip:focus { top: 12px; }
+    .shell { max-width: 1060px; margin: auto; padding: 32px 48px 24px; }
+    .top { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+    .signature { font-size: 14px; font-weight: 600; letter-spacing: .05em; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 14px; }
+    nav a { color: var(--muted); text-decoration: none; }
+    nav a:hover { color: var(--accent); text-decoration: underline; }
+    header { padding: 52px 0 40px; }
+    h1 { font-size: 40px; line-height: 1.4; font-weight: 650; letter-spacing: .06em; margin: 0; }
+    .english { display: block; color: var(--muted); font-size: 21px; font-weight: 400; letter-spacing: .02em; margin-top: 5px; }
+    .affiliation { margin: 22px 0 0; color: var(--muted); }
+    .intro { max-width: 700px; margin: 16px 0 0; }
+    .links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 20px; }
+    main { border-top: 1px solid var(--line); }
+    section { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 42px; padding: 34px 0; border-bottom: 1px solid var(--line); }
+    h2 { margin: 0; font-size: 20px; font-weight: 600; line-height: 1.6; }
+    h2 small { display: block; font-size: 14px; font-weight: 400; color: var(--muted); margin-top: 4px; }
+    .entries { min-width: 0; }
+    .entry + .entry { margin-top: 26px; }
+    .entry-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 8px 20px; flex-wrap: wrap; }
+    h3 { margin: 0; font-size: 17px; font-weight: 600; line-height: 1.7; }
+    .date { color: var(--muted); font-size: 14px; white-space: nowrap; }
+    .role { color: var(--muted); margin: 3px 0 0; }
+    .entry p { margin: 6px 0 0; }
+    .publication { border-left: 2px solid var(--accent); padding-left: 20px; margin-top: 24px; }
+    .publication h3 { font-size: 16px; }
+    .publication p { margin: 6px 0 0; }
+    .publication .details { font-size: 14px; color: var(--muted); }
+    .publication .links { margin-top: 10px; }
+    .skills { display: grid; grid-template-columns: 155px minmax(0, 1fr); column-gap: 22px; row-gap: 12px; margin: 0; }
+    .skills dt { font-weight: 550; }
+    .skills dd { margin: 0; }
+    footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 16px; color: var(--muted); font-size: 14px; padding: 24px 0 8px; }
+    @media (max-width: 760px) {
+      .shell { padding: 24px; }
+      .top { align-items: flex-start; flex-direction: column; gap: 12px; }
+      nav { gap: 8px 20px; }
+      header { padding: 36px 0 30px; }
+      h1 { font-size: 32px; }
+      .english { font-size: 19px; }
+      section { grid-template-columns: 1fr; gap: 18px; padding: 28px 0; }
+      h2 small { display: inline; margin-left: 12px; }
+      .entry-heading { display: block; }
+      .date { display: block; margin-top: 2px; white-space: normal; }
+      .skills { grid-template-columns: 1fr; row-gap: 3px; }
+      .skills dd + dt { margin-top: 12px; }
+      .publication { padding-left: 16px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media print {
+      .shell { max-width: none; padding: 0; }
+      .top, .skip { display: none; }
+      header { padding: 0 0 20px; }
+      section { break-inside: avoid; padding: 20px 0; }
+      a { color: inherit; }
+    }
   </style>
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
-  <div class="draft">デザイン確認用サンプル · 人物・所属・経歴・研究はすべて架空です</div>
   <div class="shell">
-    <div class="top"><span class="signature">TARO YAMADA</span><nav aria-label="ページ内ナビゲーション"><a href="#research">研究</a><a href="#projects">Projects</a><a href="#about">About</a></nav></div>
+    <div class="top">
+      <span class="signature" lang="en">KENSUKE UCHISHIBA</span>
+      <nav aria-label="ページ内ナビゲーション">
+        <a href="#education">学歴</a>
+        <a href="#experience">経験</a>
+        <a href="#research">研究</a>
+        <a href="#skills">技術スキル</a>
+      </nav>
+    </div>
     <header>
-      <p class="eyebrow">SAMPLE PROFILE</p>
-      <h1>山田 太郎<span class="english" lang="en">Taro Yamada</span></h1>
-      <p class="affiliation">サンプル大学大学院 · 修士課程1年（架空）</p>
-      <p class="intro">画像圧縮をテーマにした、架空の研究者のプロフィールです。このページはレイアウトと公開動作を確認するためのサンプルです。</p>
-      <a class="profile-link" href="#about">サンプルプロフィール <span aria-hidden="true">↗</span></a>
+      <h1>内芝 謙允<span class="english" lang="en">Kensuke Uchishiba</span></h1>
+      <p class="affiliation">早稲田大学大学院 基幹理工学研究科 修士課程 · 甲藤研究室</p>
+      <p class="intro">深層学習を用いた画像圧縮を研究しています。インターンシップでは、Webアプリケーション開発、クラウド基盤の構築、AIソリューションの開発を経験しています。</p>
+      <div class="links">
+        <a href="https://github.com/ken2129" lang="en">GitHub</a>
+        <a href="https://www.linkedin.com/in/uchishiba/" lang="en">LinkedIn</a>
+      </div>
     </header>
     <main id="main">
-      <section id="research"><h2>研究<small lang="en">Research</small></h2><div><h3>ニューラル表現と画像圧縮</h3><p>INRを用いた画像圧縮について、学習ベースの手法を検討しています。（架空の研究例）</p><div class="keywords" aria-label="研究キーワード"><span>Image Compression</span><span>Implicit Neural Representations</span><span>Sample Project</span></div></div></section>
-      <section id="projects"><h2>プロジェクト<small lang="en">Projects</small></h2><div class="project"><h3>画像圧縮の実験プロジェクト（架空）</h3><p>画像圧縮手法の比較を想定した架空のプロジェクトです。実際のコードや成果はありません。</p><a href="#projects">制作物のサンプル <span aria-hidden="true">↗</span></a></div></section>
-      <section id="about"><h2>所属<small lang="en">About</small></h2><div class="education"><div><strong>サンプル大学大学院</strong><p>修士課程（架空の所属・経歴）</p></div><span>M1</span></div></section>
+      <section id="education" aria-labelledby="education-heading">
+        <h2 id="education-heading">学歴<small lang="en">Education</small></h2>
+        <div class="entries">
+          <div class="entry">
+            <div class="entry-heading"><h3>早稲田大学大学院 基幹理工学研究科</h3><span class="date">2028年3月 修了見込</span></div>
+            <p class="role">修士課程</p>
+          </div>
+          <div class="entry">
+            <div class="entry-heading"><h3>早稲田大学 基幹理工学部</h3><span class="date">2026年3月 卒業</span></div>
+            <p class="role">学士（工学）</p>
+          </div>
+        </div>
+      </section>
+      <section id="experience" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">インターンシップ<small lang="en">Experience</small></h2>
+        <div class="entries">
+          <article class="entry">
+            <div class="entry-heading"><h3>富士通株式会社</h3><span class="date">2026年9月 – 現在</span></div>
+            <p class="role">ソリューションエンジニア</p>
+            <p>AI駆動開発や自動化技術を活用したAWSクラウド基盤の設計・構築に従事。</p>
+          </article>
+          <article class="entry">
+            <div class="entry-heading"><h3>燈株式会社</h3><span class="date">2026年7月 – 現在</span></div>
+            <p class="role">アルゴリズム／機械学習エンジニア</p>
+            <p>顧客向けAIソリューションの開発に従事。</p>
+          </article>
+          <article class="entry">
+            <div class="entry-heading"><h3>株式会社日立製作所</h3><span class="date">2026年8月 – 9月</span></div>
+            <p class="role">営業技術</p>
+            <p>クラウド運用サービス「Hitachi Application Reliability Centers（HARC）」の提案実習に参加。</p>
+          </article>
+          <article class="entry">
+            <div class="entry-heading"><h3>株式会社KIYONO</h3><span class="date">2024年9月 – 2026年3月</span></div>
+            <p class="role">ソフトウェアエンジニア／クラウドエンジニア</p>
+            <p>Webアプリケーションを開発し、Google Cloud上のデプロイ基盤を整備。</p>
+          </article>
+        </div>
+      </section>
+      <section id="research" aria-labelledby="research-heading">
+        <h2 id="research-heading">研究・発表<small lang="en">Research</small></h2>
+        <div class="entries">
+          <div class="entry">
+            <div class="entry-heading"><h3>学習型画像圧縮</h3><span class="date">2025年4月 – 現在</span></div>
+            <p>線形アテンションと混合ガウスモデルを組み合わせ、画像圧縮の性能と処理速度の両立に取り組んでいます。</p>
+          </div>
+          <article class="publication">
+            <h3>混合ガウスモデルと線形アテンションを用いた学習型画像圧縮</h3>
+            <p>内芝謙允、村井史門、甲藤二郎</p>
+            <p class="details">電子情報通信学会 画像工学研究会 · 2026年3月<br>第一著者・口頭発表</p>
+            <div class="links">
+              <a href="https://ken.ieice.org/ken/paper/20260316pcSj/">発表情報</a>
+              <a href="https://github.com/ken2129/RwkvCompress_with_FlashGMM">公開コード</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">技術スキル<small lang="en">Skills</small></h2>
+        <dl class="skills">
+          <dt>プログラミング</dt><dd>Python、TypeScript</dd>
+          <dt>機械学習</dt><dd>PyTorch</dd>
+          <dt>クラウド・インフラ</dt><dd>AWS、Google Cloud、Docker、Linux</dd>
+          <dt>データベース</dt><dd>MySQL</dd>
+        </dl>
+      </section>
     </main>
-    <footer><span>Taro Yamada</span><span>Profile · Sample</span></footer>
+    <footer><span lang="en">Kensuke Uchishiba</span><span>更新：2026年10月7日</span></footer>
   </div>
 </body>
 </html>
